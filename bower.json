@@ -1,5 +1,6 @@
 {
   "name": "ng-material-facade",
+  "version": "0.0.2",
   "description": "Facade for angular-material components",
   "main": [
       "./src/material-facade.module.js"
