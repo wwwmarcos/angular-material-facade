@@ -1,0 +1,16 @@
+{
+  "name": "ng-material-facade",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
