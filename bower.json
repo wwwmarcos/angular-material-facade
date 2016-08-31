@@ -6,6 +6,7 @@
       "./src/material-facade.module.js"
     , "./src/config-provider/config-material-facade.provider.js"
     , "./src/input-text/input-text.directive.js"
+    , "./src/input-email/input-email.directive.js"
   ],
   "license": "MIT",
   "ignore": [
