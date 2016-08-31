@@ -42,6 +42,7 @@ Facade for angular-material md-input-container.
 |imailInvalidMsg | 'Invalid email'   |
 
 ## Default config:
+| Config         | Value             |
 | -------------  | ---------         |
 |pattern         | '/^.+@.+\..+$/" /'|
 |maxlength       | 100               |
