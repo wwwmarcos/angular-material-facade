@@ -33,4 +33,5 @@ Or:
 Available components:
 
 * [input-text (facade for md-input-container)](https://github.com/marcosflorencio/angular-material-facade/tree/master/src/input-text)
+* [input-email (facade for md-input-container with email validations)](https://github.com/marcosflorencio/angular-material-facade/tree/master/src/input-text)
 
