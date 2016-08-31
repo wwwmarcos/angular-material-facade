@@ -49,7 +49,7 @@ Facade for angular-material md-input-container.
 |minlength       | 3                 |
 
 ### How do change the default config and messages?
-Inject the `$configMaterialFacadeProvider` and call the inputText method.
+Inject the `$configMaterialFacadeProvider` and call the inputEmail method.
 
 Example:
 ```javascript
