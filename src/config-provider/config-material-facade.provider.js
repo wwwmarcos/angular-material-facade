@@ -26,12 +26,24 @@
   function $configMaterialFacade(){
     var provider = {
         inputText : inputText
+      , inputEmail : inputEmail  
       , $get : $get
     },
     defaultConfig = {
-      inputText : {
-        messages : {
+        inputText : {
+          messages : {
               required : 'This is required'
+            , maxlength: 'Thats too long'
+            , minlength: 'Thats too short'
+          }
+        }
+      , inputEmail : {
+          pattern : '/^.+@.+\..+$/" /'
+         , maxLength : 100
+         , minLength : 3
+         , messages : {
+              required : 'This is required'
+            , pattern :  'Invalid email'
             , maxlength: 'Thats too long'
             , minlength: 'Thats too short'
           }
@@ -41,6 +53,11 @@
 
     function inputText(config){
       defaultConfig.inputText = config; 
+      return this;
+    };
+ 
+    function inputEmail(config){
+      defaultConfig.inputEmail = config; 
       return this;
     };
 

@@ -4,6 +4,7 @@
    angular
     .module('MaterialFacade', [
         'MaterialInputTextDirective'
+      , 'MaterialInputEmailDirective'
       , 'ConfigMaterialFacade'
     ])
 })();

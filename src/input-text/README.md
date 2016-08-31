@@ -44,7 +44,7 @@ Example:
 ```javascript
 
 angular 
-  .module('App', [])
+  .module('MyBeatifulModule', [])
   .config(config);
   
 config.$inject = ['$configMaterialFacadeProvider'];
