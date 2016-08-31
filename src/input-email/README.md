@@ -32,6 +32,7 @@ Facade for angular-material md-input-container.
 <input-email name="email" pattern="/^.+@.+\..+$/" /"" model="vm.email" label="Email" is-required="true" no-asterisk="true" is-disabled="false" md-class="md-block" min-length="2" max-length="3" md-class="md-block"></input-email>
 ```
 
+
 ## Default errors messages:
 | Error          | Message           |
 | -------------  | ---------         |
@@ -39,6 +40,12 @@ Facade for angular-material md-input-container.
 |maxlength       | 'Thats too long'  |
 |minlength       | 'Thats too short' |
 |imailInvalidMsg | 'Invalid email'   |
+
+## Default config:
+| -------------  | ---------         |
+|pattern         | '/^.+@.+\..+$/" /'|
+|maxlength       | 100               |
+|minlength       | 3                 |
 
 ### How do change the default config and messages?
 Inject the `$configMaterialFacadeProvider` and call the inputText method.
