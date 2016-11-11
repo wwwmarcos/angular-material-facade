@@ -1,16 +1,29 @@
 {
-  "name": "ng-material-facade",
-  "version": "0.0.1",
+  "name": "angular-material-facade",
+  "version": "0.0.4",
+  "description": "Facade for angular-material components",
+  "main": [
+    "./src/material-facade.module.js",
+    "./src/config-provider/config-material-facade.provider.js",
+    "./src/input-text/input-text.directive.js",
+    "./src/input-email/input-email.directive.js"
+  ],
   "scripts": {
-    "start": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosflorencio/angular-material-facade.git"
   },
-  "engines": {
-    "node": "0.12.2"
-  },
-  "keywords": [],
+  "keywords": [
+    "angular",
+    "angular-material",
+    "facade"
+  ],
+  "author": "marcosflorencio",
   "license": "MIT",
-  "devDependencies": {
-  }
+  "bugs": {
+    "url": "https://github.com/marcosflorencio/angular-material-facade/issues"
+  },
+  "homepage": "https://github.com/marcosflorencio/angular-material-facade#readme"
 }
