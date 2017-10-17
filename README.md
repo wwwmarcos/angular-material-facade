@@ -2,10 +2,12 @@
 
 Facade for angular-material components
 
+## under construction
 
-## In construction :)
+## Install 
+`yarn add angular-material-facade`
 
-## Why this?
+## Why?
 Compare yourself:
 
 This:
